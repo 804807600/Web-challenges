@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Visulization Dashbord</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="grayback">
+    <div class="whiteback">
+    <div class="container">
+        
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="index.html"><span class=" navbaractive">Latitude</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu whiteback">
+                            <a class="dropdown-item" href="maxtemperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    </nav>
+    <!--DIVIDER ROWS-->
+
+    <!-- <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-hearder">
+                <a  href="index.html">
+                    <span class="navbaractive">Lattitue</span>
+                </a>
+                <div class=" nav navbar-right">
+                 
+                    <label for="toggle">&#9776;
+                        <input type="checkbox" id="toggle" />
+                    </label>
+                    <div class="menu">
+                    <li class="dropdown">
+                        <a data-toggle="dropdown">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                                <li><a href="maxtemperature.html">Max Temperature</a></li>
+                                <li><a href="humidity.html">Humidity</a></li>
+                                <li><a href="cloudiness.html">Cloudiness</a></li>
+                                <li><a href="windspeed.html">Wind Speed</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li><a href="comparison.html">Comparison</a></li>
+                    <li><a href="data.html">Data</a></li>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </nav> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="whiteback2">
+                    <hr>
+                    <h1>Max Temperature</h1>
+                    <hr>
+                    <img class="majorphoto" src="11-Web_Homework_Resources_assets_images_Fig1.png"
+                        alt="Latitue vs Temp">
+                    <br>
+                    <p class="summary">
+                        &nbsp&nbsp&nbsp&nbspAs expected, the weather becomes significantly warmer as one approaches
+                        the equator(0 Deg.Letitude). More interestingly, however, is the fact
+                        that the southern hemispher tends to be warmer this time of year than
+                        the norther hemispher. This may be due to the tilt of the earth at the
+                        time of the year this data was gathered.
+                        <hr>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="whiteback2">
+                    <hr>
+                    <h2>Visualizations</h2>
+                    <hr>
+                    <div class="side">
+                        <a href="maxtemperature.html"><img class="side1"
+                                src="11-Web_Homework_Resources_assets_images_Fig1.png"
+                                alt="Temp vs. Latitude Scatterplt"></a>
+                        <a href="humidity.html"><img class="side2"
+                                src="11-Web_Homework_Resources_assets_images_Fig2.png" ,
+                                alt="Humidity vs. Latitude Scatterplt"></a>
+                        <a href="cloudiness.html"><img class="side3"
+                                src="11-Web_Homework_Resources_assets_images_Fig3.png" ,
+                                alt="Cloudiness vs. Latitude Scatterplt"></a>
+                        <a href="wind.html"><img class="side4" src="11-Web_Homework_Resources_assets_images_Fig4.png" ,
+                                alt="Wind Speed vs. Latitude Scatterplt"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    ​
+
+</body>
+</html>
